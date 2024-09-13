@@ -33,16 +33,36 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+ ```
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
-
+module HALF_ADDSUB(a,b,sum,carry,D,Bo);
+input a,b;
+output sum,carry,D,Bo; 
+wire abar;
+not(abar,a);
+xor(sum,a,b);
+and(carry,a,b);
+xor(D,a,b);
+and(Bo,abar,b);
+endmodule
+```
+```
+Developed by: Easwari M
+RegisterNumber: 212223240033*/
+```
 
 **RTL realization**
+![wave](https://github.com/user-attachments/assets/c7fea907-d0de-4d0d-b634-786e9117aec1)
+
 
 **Output:**
+![wave](https://github.com/user-attachments/assets/ae0fbd59-b227-4108-b97b-f96da118f708)
+
 
 **RTL**
+![rtl](https://github.com/user-attachments/assets/318a69e2-d1ff-4c7c-9236-6a5b47b5a8f3)
+
 
 **Timing Diagram**
 
