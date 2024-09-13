@@ -52,19 +52,22 @@ Developed by: Easwari M
 RegisterNumber: 212223240033*/
 ```
 
+**Truth Table**
+
+
+
+
+
 **RTL realization**
-![wave](https://github.com/user-attachments/assets/c7fea907-d0de-4d0d-b634-786e9117aec1)
 
 
-**Output:**
-![wave](https://github.com/user-attachments/assets/ae0fbd59-b227-4108-b97b-f96da118f708)
-
-
-**RTL**
 ![rtl](https://github.com/user-attachments/assets/318a69e2-d1ff-4c7c-9236-6a5b47b5a8f3)
 
 
-**Timing Diagram**
+**Output:**
+
+![wave](https://github.com/user-attachments/assets/ae0fbd59-b227-4108-b97b-f96da118f708)
+
 
 **Result:**
 
