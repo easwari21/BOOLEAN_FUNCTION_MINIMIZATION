@@ -55,6 +55,7 @@ RegisterNumber: 212223240033*/
 **Truth Table**
 
 
+![truth](https://github.com/user-attachments/assets/6ca2e286-b5da-439b-8e56-bb607b4169db)
 
 
 
